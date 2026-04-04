@@ -6,7 +6,7 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 titleider = "67F0C"
-secretkey = "1AJ3RB1PXDKWK5F7FPMFNO5PIZAAYH7OTD868IXX6ZZWAQP15H"
+secretkey = "3TY9PWBOPRG98JGFM7NZ3DCRU8C9CM41TMTZTSKSUJNNP8APH3"
 ApiKey = "OC|9939054459475076|3a1b859ae4143aa3d5bd5a2748aa2bdc"
 def GetAuthHeaders() -> dict:
     return {"Content-Type": "application/json", "X-SecretKey": secretkey}
